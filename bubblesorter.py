@@ -12,7 +12,6 @@ class BubbleSorter:
                 if self.data[j] > self.data[j + 1]:
                     self.data[j], self.data[j + 1] = self.data[j + 1], self.data[j]
 
-# โปรแกรมทดสอบ
 if __name__ == "__main__":
     numbers = [64, 34, 25, 12, 22, 11, 90]
     sorter = BubbleSorter(numbers)
