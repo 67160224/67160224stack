@@ -16,10 +16,10 @@ if __name__ == "__main__":
     numbers = [64, 34, 25, 12, 22, 11, 90]
     sorter = BubbleSorter(numbers)
 
-    print("ก่อนเรียงลำดับ:")
+    print("Before sorting:")
     sorter.show_data()
 
     sorter.bubble_sort()
 
-    print("หลังเรียงลำดับ:")
+    print("After sorting:")
     sorter.show_data()
